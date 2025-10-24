@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(69.2deg, rgba(77, 143, 251, 1) 35.3%, rgba(202, 51, 255, 1) 100.3%);
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading p {
+    /* font-family: "Playwrite DE SAS", sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+    width: 80%;
+    /* gap: 10%; */
+
+}
+
+.total-income {
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.total-Expense {
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.Net-balance {
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.total-income-head {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+}
+
+.total-expense-head {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+}
+
+.Net-balance-head {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.total h1 {
+    padding-bottom: 20px;
+    color: red;
+}
+
+
+
+
+.main-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-div-transaction {
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.add-transaction {
+    margin-top: 10px;
+}
+
+.add-transaction h1 {
+    text-align: center;
+}
+
+.description p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.description input {
+    margin-left: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.amount p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.amount input {
+    margin-left: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.types p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.types input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+}
+
+.btns {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.add-trans {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reset {
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.main-trans{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+
+/* .transactions {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 60%;
+} */
+
+
+.trans-head h1 {
+    margin-left: 170px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.filter p {
+    font-size: 20px;
+    margin-left: -10px;
+    padding-top: 10px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+
+.seperate {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.seperate [type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.types [type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.types label {
+    font-weight: 600;
+}
+
+.seperate label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.main-trans-entry{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    gap: 20px;
+    border: 2px solid beige;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-edit{
+    width: 65px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btn-delete{
+    width: 65px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+input:focus {
+    outline: none;
+}
