@@ -10,7 +10,7 @@ Simple, lightweight expense calculator for tracking individual expenses and view
 
 ## Quick start
 1. Clone the repository:
-    git clone <repo-url>
+    git clone <https://github.com/Aswathrs2761/Expense-Calc>
 
 2. If the project is a static web app: open `index.html` in a browser.
 
